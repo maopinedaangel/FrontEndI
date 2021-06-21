@@ -1,0 +1,130 @@
+html, header, main, footer, div {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0%;
+
+}
+
+header {
+    /*text-align: center;*/
+    background-image: url('../img/days-of-being-wild.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#about {
+    background-color: black;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+#about a {
+    color: yellow;
+    text-decoration: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding: 0.5em;
+    line-height: 2em;
+    font-size: 18px;
+    
+}
+
+#about a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#div-foto {
+    text-align: left;
+    padding: 0%;
+    padding-top: 10%;
+}
+
+#img-mao {
+    width: 15%;
+    /*transform: scaleX(-1);*/
+    margin: 0%;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#titulo {
+    background-color: rgb(200, 200, 200);
+    text-align: center;   
+    color: rgb(20,100,145);    
+    padding: 0.3em;
+    letter-spacing: 0.2em;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+h2 {
+    background-color: rgb(200, 200, 200);
+    color: rgb(20,100,145);
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    padding: 0.2em;
+    letter-spacing: 0.2em;    
+}
+
+li {
+    margin-bottom: 0.3em;    
+}
+
+span {
+    margin-right: 20px;
+    padding-top: 0.2em;
+    padding-bottom:0.4em;
+}
+
+.campo {
+    font-weight: bold;
+}
+
+.seccion-datos {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin-bottom: 1%;
+}
+
+.fechas {
+    text-align: right;
+}
+
+.datos p {
+    padding-left: 1%;
+}
+
+.personales {
+    font-style: italic;
+}
+
+footer {
+    background-color: rgb(20,100,145);
+    color: rgb(255,255,255);
+    text-align: center;
+   }
+   
+footer p {
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+.icono {
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+

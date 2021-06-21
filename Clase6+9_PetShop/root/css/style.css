@@ -1,0 +1,150 @@
+html, body, header, section, footer, div {
+    box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+    margin: 0%;
+}
+
+button, input {
+    border-radius: 15px;
+}
+
+#div-opciones {
+    background-color: #222222;
+    color: white;
+    border: none;
+}
+
+select {
+    background-color: #222222;
+    color:#FFFFFF;
+}
+
+#txt-ofertas {
+    /*float: left;*/
+}
+
+#nav-settings {
+    float: right;
+}
+
+#div-navegacion {
+    background-color:#F0A83E;
+    color: white;
+    clear:both;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+#menu a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+#banner {
+    background-image: url('../img/comida_perro_big.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+#div-ofertas {
+    text-align: center;
+}
+
+#txt-placer {
+    background-color: white;
+}
+
+#txt-descuentos {
+    /*background-color: white;*/
+}
+
+#txt-comederos {
+    background-color: #F0A83E;
+}
+
+#sc-destacados {
+    text-align: center;
+}
+
+sc-destacados p, a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.card-destacado h3 {
+    color:#3C2313
+}
+
+.card-destacado h2 {
+    color: #F0A83E;
+}
+
+#sc-contacto {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    text-align: center;
+}
+
+.inp-contacto {
+    background-color: #3C2313;
+    display:block;
+}
+
+.inp-contacto::placeholder {
+    color: #FFFFFF;
+}
+
+button {
+    color:#FFFFFF;
+}
+
+#btn-resetear {
+    background-color: #8A8787;
+}
+
+#btn-enviar {
+    background-color: #F0A83E;
+}
+
+
+#suscripcion {
+    background-color: #F0A83E;    
+}
+
+#inp-correo::placeholder {
+    color: #A0A0A0;
+}
+
+#btn-suscripcion {
+    background-color: #3C2313;    
+}
+
+#nosotros {
+    background-color: #3C2313;
+}
+
+.dato-contacto {
+    color: #FFFFFF;
+}
+
+.sub-dato {
+    color: #8A8787;
+}
+
+#copyright {
+    background-color: #222222;
+    color: white;
+}

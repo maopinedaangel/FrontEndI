@@ -1,0 +1,94 @@
+html, header, main, footer, div {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0%;
+
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+footer {
+ background-color: rgb(20,100,145);
+ color: rgb(255,255,255);
+ text-align: center;
+}
+
+footer p {
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+h2 {
+    background-color: rgb(200, 200, 200);
+    color: rgb(20,100,145);
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    padding: 0.2em;
+    letter-spacing: 0.2em;    
+}
+
+li {
+    margin-bottom: 0.3em;    
+}
+
+span {
+    margin-right: 20px;
+    padding-top: 0.2em;
+    padding-bottom:0.4em;
+}
+
+.campo {
+    font-weight: bold;
+}
+
+.seccion-datos {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    margin-bottom: 1%;
+}
+
+.fechas {
+    text-align: right;
+}
+
+.datos p {
+    padding-left: 1%;
+}
+
+.personales {
+    font-style: italic;
+}
+
+.icono {
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#div-batman {
+    background-color: rgb(246,246,246);
+}
+
+#img-batman {
+    width: 8%;
+}
+
+#titulo {
+    background-color: rgb(200, 200, 200);
+    text-align: center;   
+    color: rgb(20,100,145);    
+    padding: 0.3em;
+    letter-spacing: 0.2em;
+}
