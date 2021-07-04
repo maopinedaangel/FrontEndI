@@ -1,127 +1,203 @@
-html, body, header, section, footer, div {
+/*Configuración inicial*/
+* {
     box-sizing: border-box;
-
-}
-
-h1, h2, h3, h4, h5, h6, p, li, a {
     margin: 0%;
 }
 
-button, input {
-    border-radius: 15px;
+
+/*Reglas generales*/
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+/*Header*/
 #div-opciones {
     background-color: #222222;
-    color: white;
-    border: none;
+    color: #F3F3F3;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
-select {
-    background-color: #222222;
-    color:#FFFFFF;
-}
-
-#txt-ofertas {
-    /*float: left;*/
-}
-
-#nav-settings {
-    float: right;
-}
 
 #div-navegacion {
-    background-color:#F0A83E;
-    color: white;
-    clear:both;
-}
-
-#menu {
-    float: right;
-}
-
-#menu li {
-    list-style: none;
-    display: inline-block;
-}
-
-#menu a {
-    text-decoration: none;
-    color:#FFFFFF;
+    background-color: #F0A83E;
+    color: #FFFFFF;
 }
 
 #banner {
-    background-image: url('../img/comida_perro_big.png');
+    width: 100%;
+    height: 409px;
+    background-image: url("/img/comida_perro_big.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;  
-}
-
-#div-ofertas {
+    background-attachment: fixed;
     text-align: center;
 }
 
 #txt-placer {
-    background-color: white;
+    background: #FFFFFF;
+    padding: 9px 10px 10px 10px; 
+    color: #3C2313;    
 }
 
-#txt-descuentos {
-    /*background-color: white;*/
+#txt-descuento {
+    background-color: rgba(0,0,0,0);
+    color: #3C2313;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 #txt-comederos {
     background-color: #F0A83E;
+    color: #FFFFFF;
+    padding: 15px 23px;
+    border-radius: 5px;
 }
 
+
+/*Main*/
 #sc-destacados {
     text-align: center;
 }
 
-sc-destacados p, a {
+#h-destacados {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+}
+
+#sc-destacados p, 
+#sc-destacados a{
+    font-size: 15px;
+    line-height: 18px;
     color: #666666;
-    text-decoration: none;
 }
 
+/*Card*/
+
+.card-destacado {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    background-color: #FBFAF6;
+    width: 265px;
+    height: 312px;
+}
+.card-destacado img {
+    
+}
 .card-destacado h3 {
-    color:#3C2313
+    color: #3C2313;
+    margin-top: 7px;
+    margin-bottom: 7px;    
 }
-
 .card-destacado h2 {
     color: #F0A83E;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
-#sc-contacto {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: aqua;
-    text-align: center;
+/*Formulario*/
+#contacto {
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;    
 }
 
 .inp-contacto {
-    background-color: #3C2313;
-    display:block;
+    font-size: 9px;
+    line-height: 11px;
+    font-size: 16px;
+    line-height: 19px;
+    /*color: #FFFFFF;  */
+    background-color: #3C2313;  
+    border-radius: 15px;
+    padding: 15px;
+    width: 340px;
 }
 
 .inp-contacto::placeholder {
-    color: #FFFFFF;
-}
-
-button {
-    color:#FFFFFF;
+    color: #FFFFFF; 
 }
 
 #btn-resetear {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border-radius: 15px;
     background-color: #8A8787;
+    width: 110px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;    
+    border: none;
 }
 
 #btn-enviar {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border-radius: 15px; 
+    background-color: #F0A83E;   
+    width: 110px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px; 
+    border: none;     
+}
+
+/*Footer*/
+
+#suscripcion {
     background-color: #F0A83E;
 }
 
+#suscripcion p {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+}
 
-#suscripcion {
-    background-color: #F0A83E;    
+#nosotros {
+    background-color: #3C2313;  
+}
+
+.dato-contacto {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+
+}
+
+.sub-dato {
+    color: #8A8787;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;    
+}
+
+#inp-correo {
+    width: 270px;
+    font-size: 9px;
+    line-height: 11px;
+    padding-top: 14.5px;
+    padding-bottom: 14.5px;
+    padding-left: 8px;
+    border-radius: 15px;
+    border: none;
 }
 
 #inp-correo::placeholder {
@@ -129,22 +205,23 @@ button {
 }
 
 #btn-suscripcion {
-    background-color: #3C2313;    
-}
-
-#nosotros {
-    background-color: #3C2313;
-}
-
-.dato-contacto {
+    width: 70px;
+    font-size: 9px;
+    line-height: 11px;
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;    
     color: #FFFFFF;
-}
-
-.sub-dato {
-    color: #8A8787;
+    background-color: #3C2313;
+    border-radius: 15px;
 }
 
 #copyright {
     background-color: #222222;
-    color: white;
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    height: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }

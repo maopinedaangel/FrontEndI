@@ -7,48 +7,41 @@
     <title>Petshop</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500;1,700&display=swap" rel="stylesheet">    
 </head>
 <body>
     <header>
         <div id="div-opciones">
-            <nav id="nav-settings">
-                <!--
-                <li>Español</li>
-                <li>ARG$</li> 
-                -->
-                <select nombre="idioma">
-                    <option>Español</option>
-                    <option>English</option>
-                </select>   
-                <select nombre="moneda">
-                    <option>ARG$</option>
-                    <option>USD$</option>
-                </select>                                      
+            <p>Grandes ofertas en comederos</p>              
+            <nav>
+                <ul>
+                    <li>Español</li>
+                    <li>ARG$</li>
+                </ul>                                   
             </nav>
-            <p id="txt-ofertas">Grandes ofertas en comederos</p>            
+          
         </div>
         <div id="div-navegacion">
             <img src="img/Logo.png" alt="Logo FrontCat&Dog">
-            <nav id="menu">
-                <li><img src="img/pawprint.png" alt="Huella miniatura"><a href="categorias.html">Categorías</a></li>
-                <li><img src="img/pawprint.png" alt="Huella miniatura"><a href="pets.html">Pets</a></li>
-                <li><img src="img/pawprint.png" alt="Huella miniatura"><a href="nosotros.html">Nosotros</a></li>
-                <li><img src="img/pawprint.png" alt="Huella miniatura"><a href="contactanos.html">Contactanos</a></li>                                                
+            <nav>
+                <li><i class="fas fa-paw"></i><a href="categorias.html">Categorías</a></li>
+                <li><i class="fas fa-paw"></i><a href="pets.html">Pets</a></li>
+                <li><i class="fas fa-paw"></i><a href="nosotros.html">Nosotros</a></li>
+                <li><i class="fas fa-paw"></i><a href="contactanos.html">Contactanos</a></li>                                                
             </nav>
         </div>        
         <div id="banner">
-            <!--<div id="div-ofertas">-->
-                <h2 id="txt-placer">¡Es un placer tenerte aquí!</h2>
-                <h3 id="txt-descuento">¡Comederos en descuento!</h3>
-                <h3 id="txt-comederos">COMEDEROS</h3>
-            <!--</div>-->
-
+            <h2 id="txt-placer">¡Es un placer tenerte aquí!</h2>
+            <h3 id="txt-descuento">¡Comederos en descuento!</h3>
+            <h3 id="txt-comederos">COMEDEROS</h3>
         </div>
     </header>
 
     <section id="sc-destacados">
         <img src="img/pawprint1.png" alt="Imagen huella de perrito">
-        <h2>Productos Destacados</h2>
+        <h2 id="h-destacados">Productos Destacados</h2>
         <p>
             <a href="#comederos">Comederos</a> - <a href="#accesorios">Accesorios</a> - <a href="#comida">Comida</a>                        
         </p>
@@ -71,7 +64,7 @@
         </div>
     </section>
     <section id="sc-contacto">
-        <h2>Contáctanos</h2>
+        <h2 id="contacto">Contáctanos</h2>
         <form>
             <input class="inp-contacto" type="text" placeholder="Nombre y Apellido">
             <input class="inp-contacto" type="text" placeholder="Ingresá tu correo electrónico">
@@ -84,7 +77,7 @@
 
         <div id="suscripcion">
             <div>
-                <img src="img/enviar-correo1.png" alt="Imagen enviar correo electrónico">
+                <img src="img/enviar-correo1.png" alt="Imagen enviar correo electrónico">             
                 <p>Suscríbete para más novedades</p>
             </div>
             <div>
@@ -99,19 +92,16 @@
             <div>
                 <div>
                     <img src="img/icono-locacion.png" alt="Icono locación">
-                    <i class="fa-solid fa-location-dot"></i>
                     <h4 class="dato-contacto">Localidad</h4>
                     <p class="sub-dato">Calle - provincia</p>
                 </div>
                 <div>                   
                     <img src="img/icono-telefono.png" alt="Icono teléfono">
-                    <i class="fas fa-phone-alt"></i>
                     <h4 class="dato-contacto">Teléfono</h4>
                     <p class="sub-dato">Número de teléfono</p>
                 </div>
                 <div>
                     <img src="img/icono-correo.png" alt="Icono correo">
-                    <i class="fal fa-envelope"></i>
                     <h4 class="dato-contacto">Correo electrónico</h4>
                     <p class="sub-dato">Dirección de correo</p>
                 </div>                                    
