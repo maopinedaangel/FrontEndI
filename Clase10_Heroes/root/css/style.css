@@ -33,6 +33,7 @@ header h1 {
     width:fit-content;
     margin-top: 150px;
     margin-bottom: 150px;
+  
 }
 
 .card {
@@ -42,7 +43,7 @@ header h1 {
     display: inline-block; 
     position: relative; 
     text-align: center; 
-    border-radius: 16px;  
+    border-radius: 16px 16px 0px 0px;  
     margin-left: 30px;
     margin-right: 30px;   
 }
@@ -57,7 +58,7 @@ header h1 {
     border-radius: 50%;
     position: absolute;
     top: 120px;
-    left: 90px;;
+    left: 90px;
 
 }
 
@@ -73,6 +74,7 @@ header h1 {
     padding-left: 16px;
     padding-right: 16px;
     font-size: 16px;
+
 }
 
 button {

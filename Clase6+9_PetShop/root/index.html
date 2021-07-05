@@ -14,17 +14,22 @@
 <body>
     <header>
         <div id="div-opciones">
-            <p>Grandes ofertas en comederos</p>              
-            <nav>
+            <div id="div-ofertas">
+                <p>Grandes ofertas en comederos</p> 
+            </div>
+             
+            <div id="div-settings">
                 <ul>
                     <li>Español</li>
                     <li>ARG$</li>
                 </ul>                                   
-            </nav>
+            </div>
           
         </div>
         <div id="div-navegacion">
-            <img src="img/Logo.png" alt="Logo FrontCat&Dog">
+            <div id="div-logo">
+                <img src="img/Logo.png" alt="Logo FrontCat&Dog">
+            </div>
             <nav>
                 <li><i class="fas fa-paw"></i><a href="categorias.html">Categorías</a></li>
                 <li><i class="fas fa-paw"></i><a href="pets.html">Pets</a></li>
@@ -33,19 +38,24 @@
             </nav>
         </div>        
         <div id="banner">
-            <h2 id="txt-placer">¡Es un placer tenerte aquí!</h2>
-            <h3 id="txt-descuento">¡Comederos en descuento!</h3>
-            <h3 id="txt-comederos">COMEDEROS</h3>
+            <div id="ley-banner">
+                <div><h2 id="txt-placer">¡Es un placer tenerte aquí!</h2></div>
+                <div><h3 id="txt-descuento">¡Comederos en descuento!</h3></div>
+                <div><h3 id="txt-comederos">COMEDEROS</h3></div>
+            </div>
         </div>
     </header>
 
-    <section id="sc-destacados">
-        <img src="img/pawprint1.png" alt="Imagen huella de perrito">
-        <h2 id="h-destacados">Productos Destacados</h2>
-        <p>
-            <a href="#comederos">Comederos</a> - <a href="#accesorios">Accesorios</a> - <a href="#comida">Comida</a>                        
-        </p>
-        <div id="div-destacados">
+    <main>
+        <section id="sc-destacados">
+            <img src="img/pawprint1.png" alt="Imagen huella de perrito">
+            <h2 id="h-destacados">Productos Destacados</h2>
+            <p>
+                <a href="#comederos">Comederos</a> - <a href="#accesorios">Accesorios</a> - <a href="#comida">Comida</a>                        
+            </p>            
+        </section>
+    
+        <section id="div-destacados">
             <div class="card-destacado">
                 <img src="img/churrasquito.png" alt="Imagen churrasquito">
                 <h3>Juguete churrasquito</h2>
@@ -61,18 +71,21 @@
                 <h3>Juguete huesito</h2>
                 <h2>$650</h2>                                
             </div>                      
-        </div>
-    </section>
-    <section id="sc-contacto">
-        <h2 id="contacto">Contáctanos</h2>
-        <form>
-            <input class="inp-contacto" type="text" placeholder="Nombre y Apellido">
-            <input class="inp-contacto" type="text" placeholder="Ingresá tu correo electrónico">
-            <input class="inp-contacto" type="number" placeholder="Teléfono">
-            <button id="btn-resetear">Resetear</button>   
-            <button id="btn-enviar">Enviar</button>                     
-        </form>
-    </section>
+        </section>
+    
+        <section id="sc-contacto">
+            <h2 id="contacto">Contáctanos</h2>
+            <form>
+                <input class="inp-contacto" type="text" placeholder="Nombre y Apellido">
+                <input class="inp-contacto" type="text" placeholder="Ingresá tu correo electrónico">
+                <input class="inp-contacto" type="number" placeholder="Teléfono">
+                <button id="btn-resetear">Resetear</button>   
+                <button id="btn-enviar">Enviar</button>                     
+            </form>
+        </section>
+    </main>
+
+
     <footer>
 
         <div id="suscripcion">
