@@ -74,13 +74,17 @@
         </section>
     
         <section id="sc-contacto">
-            <h2 id="contacto">Contáctanos</h2>
-            <form>
-                <input class="inp-contacto" type="text" placeholder="Nombre y Apellido">
-                <input class="inp-contacto" type="text" placeholder="Ingresá tu correo electrónico">
-                <input class="inp-contacto" type="number" placeholder="Teléfono">
-                <button id="btn-resetear">Resetear</button>   
-                <button id="btn-enviar">Enviar</button>                     
+            <h2 id="text-contacto">Contáctanos</h2>
+            <form id="form-contacto">
+                <div id="form-inputs">
+                    <input class="inp-contacto" type="text" placeholder="Nombre y Apellido">
+                    <input class="inp-contacto" type="text" placeholder="Ingresá tu correo electrónico">
+                    <input class="inp-contacto" type="number" placeholder="Teléfono">
+                </div>
+                <div id="form-buttons">
+                    <button id="btn-resetear">Resetear</button>   
+                    <button id="btn-enviar">Enviar</button>                     
+                </div>
             </form>
         </section>
     </main>
@@ -89,9 +93,9 @@
     <footer>
 
         <div id="suscripcion">
-            <div>
-                <img src="img/enviar-correo1.png" alt="Imagen enviar correo electrónico">             
-                <p>Suscríbete para más novedades</p>
+            <div id="div-novedades">
+                <img id="img-correo" src="img/enviar-correo1.png" alt="Imagen enviar correo electrónico">                             
+                <span>Suscríbete para más novedades</span>
             </div>
             <div>
                 <form>
@@ -102,24 +106,31 @@
         </div>
 
         <div id="nosotros">
-            <div>
-                <div>
-                    <img src="img/icono-locacion.png" alt="Icono locación">
-                    <h4 class="dato-contacto">Localidad</h4>
-                    <p class="sub-dato">Calle - provincia</p>
+            <div id="div-iconos">
+                <div class="div-gr-contacto">
+                    <img class="img-footer" src="img/icono-locacion.png" alt="Icono locación">
+                    <span>
+                        <h4 class="dato-contacto">Localidad</h4>
+                        <p class="sub-dato">Calle - provincia</p>
+                    </span>
                 </div>
-                <div>                   
-                    <img src="img/icono-telefono.png" alt="Icono teléfono">
-                    <h4 class="dato-contacto">Teléfono</h4>
-                    <p class="sub-dato">Número de teléfono</p>
+                <div class="div-gr-contacto">                  
+                    <img class="img-footer" src="img/icono-telefono.png" alt="Icono teléfono">
+                    <span>
+                        <h4 class="dato-contacto">Teléfono</h4>
+                        <p class="sub-dato">Número de teléfono</p>
+                    </span>
                 </div>
-                <div>
-                    <img src="img/icono-correo.png" alt="Icono correo">
-                    <h4 class="dato-contacto">Correo electrónico</h4>
-                    <p class="sub-dato">Dirección de correo</p>
+                <div class="div-gr-contacto">
+                    <img class="img-footer" src="img/icono-correo.png" alt="Icono correo">
+                    <span>
+                        <h4 class="dato-contacto">Correo electrónico</h4>
+                        <p class="sub-dato">Dirección de correo<
+                    </span>
+/p>
                 </div>                                    
             </div>
-            <div>
+            <div id="logo-footer">
                 <img src="img/logo-footer.png" alt="Logo FrontCat&Dog">
             </div>                
         </div>

@@ -19,6 +19,10 @@ a {
     color: #F3F3F3;
 }
 
+i {
+    margin-right: 1px;
+}
+
 /*Header*/
 #div-opciones {
     background-color: #222222;
@@ -81,6 +85,7 @@ a {
     width: 100%;
     height: 409px;
     background-image: url("/img/comida_perro_big.png");
+    background-image: url("../img/comida_perro_big.png");    
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -129,6 +134,13 @@ a {
 
 
 /*Main*/
+main {
+    margin-top: 25px;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
 #sc-destacados {
     text-align: center;
 }
@@ -147,13 +159,9 @@ a {
     color: #666666;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
 #div-destacados {
+    margin-top: 49px;
+    margin-bottom: 76px;    
     display: flex;
     justify-content: center;
 }
@@ -165,28 +173,44 @@ main {
     line-height: 18px;
     background-color: #FBFAF6;
     width: 265px;
-    height: 312px;
+    /*height: 312px;*/
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .card-destacado img {
     
 }
 .card-destacado h3 {
     color: #3C2313;
-    margin-top: 7px;
-    margin-bottom: 7px;    
+    padding-top: 7px;
+    padding-bottom: 7px;   
 }
 .card-destacado h2 {
     color: #F0A83E;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 /*Formulario*/
-#contacto {
+#sc-contacto {
     font-size: 25px;
     line-height: 29px;
-    color: #3C2313;    
+    color: #3C2313;  
+
+}
+
+#text-contacto {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form-contacto {
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-around;
+    align-items: center;
 }
 
 .inp-contacto {
@@ -199,43 +223,69 @@ main {
     border-radius: 15px;
     padding: 15px;
     width: 340px;
+    margin-top: 5px;
+    margin-bottom: 5px;    
 }
 
 .inp-contacto::placeholder {
     color: #FFFFFF; 
+    font-size: 9px;
+    line-height: 11px;    
 }
 
-#btn-resetear {
+#form-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 41px;    
+}
+
+#form-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#form-buttons button {
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
     border-radius: 15px;
-    background-color: #8A8787;
     width: 110px;
     padding-top: 7.5px;
     padding-bottom: 7.5px;    
-    border: none;
+    border: none;    
+    margin: 3px;
+}
+#btn-resetear {
+
+    background-color: #8A8787;
+
 }
 
 #btn-enviar {
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
-    border-radius: 15px; 
-    background-color: #F0A83E;   
-    width: 110px;
-    padding-top: 7.5px;
-    padding-bottom: 7.5px; 
-    border: none;     
+    background-color: #F0A83E;       
 }
 
 /*Footer*/
 
 #suscripcion {
     background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
 }
 
-#suscripcion p {
+#div-novedades {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#img-correo {
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+#suscripcion span {
     color: #FFFFFF;
     font-size: 20px;
     line-height: 23px;
@@ -244,21 +294,9 @@ main {
 
 #nosotros {
     background-color: #3C2313;  
-}
-
-.dato-contacto {
-    color: #FFFFFF;
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 700;
-
-}
-
-.sub-dato {
-    color: #8A8787;
-    font-size: 10px;
-    line-height: 12px;
-    font-weight: 700;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #inp-correo {
@@ -285,7 +323,49 @@ main {
     color: #FFFFFF;
     background-color: #3C2313;
     border-radius: 15px;
+    margin-right: 47px;
+    margin-left: 5px;
 }
+
+#div-iconos {
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.div-gr-contacto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+
+.dato-contacto {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+
+}
+
+.sub-dato {
+    color: #8A8787;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;   
+
+}
+
+#logo-footer {
+    margin-right: 74px;
+}
+
 
 #copyright {
     background-color: #222222;
